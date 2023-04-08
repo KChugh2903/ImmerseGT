@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641228, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -395,6 +395,7 @@ GameObject:
   - component: {fileID: 214761176}
   - component: {fileID: 214761175}
   - component: {fileID: 214761174}
+  - component: {fileID: 214761179}
   m_Layer: 0
   m_Name: bridge3
   m_TagString: Untagged
@@ -496,6 +497,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &214761179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214761173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82db4d6d29fbd47a7a1c5b38373c426d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1112060041}
 --- !u!1 &229969855
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +523,7 @@ GameObject:
   - component: {fileID: 229969858}
   - component: {fileID: 229969857}
   - component: {fileID: 229969856}
+  - component: {fileID: 229969861}
   m_Layer: 0
   m_Name: bridge1
   m_TagString: Untagged
@@ -610,6 +625,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &229969861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229969855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82db4d6d29fbd47a7a1c5b38373c426d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1112060041}
 --- !u!1 &478036348
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +973,7 @@ GameObject:
   - component: {fileID: 958165062}
   - component: {fileID: 958165061}
   - component: {fileID: 958165060}
+  - component: {fileID: 958165065}
   m_Layer: 0
   m_Name: bridge2
   m_TagString: Untagged
@@ -1046,6 +1075,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958165065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958165059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82db4d6d29fbd47a7a1c5b38373c426d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1112060041}
 --- !u!1 &1003814244
 GameObject:
   m_ObjectHideFlags: 0
