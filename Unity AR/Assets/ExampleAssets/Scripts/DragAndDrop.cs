@@ -8,6 +8,14 @@ public class DragAndDrop : MonoBehaviour
     public Camera camera;
     // Start is called before the first frame update
 
+    void Start(){
+        GetMousePos();
+    }
+
+    void Update(){
+        Debug.Log("mousePos is: " + mousePos);
+    }
+
     private Vector3 GetMousePos()
     {
         return camera.WorldToScreenPoint(transform.position);
